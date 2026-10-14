@@ -405,3 +405,5 @@ chatbot/
 | 11 | 30s timeout → background queue | Celery worker log + `/jobs` poll |
 
 ---
+#   m u l t i m o d a l - s u p p o r t - c h a t b o t  
+ 
