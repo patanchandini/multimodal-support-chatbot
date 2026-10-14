@@ -7,6 +7,14 @@ customer's written claims. It rejects prompt-injection attempts, masks PII
 in logs, sweeps expired uploads, and moves slow requests to a Celery
 background queue.
 
+
+**🔗 Live Demo:** https://multimodal-support-chatbot.onrender.com/docs
+
+**⚡ Health Check:** https://multimodal-support-chatbot.onrender.com/health
+
+> ⚠️ **Free-tier note:** the live demo sleeps after 15 minutes of inactivity. The first request may take ~30 seconds to wake the server.
+
+
 ---
 
 ## Features
@@ -405,5 +413,6 @@ chatbot/
 | 11 | 30s timeout → background queue | Celery worker log + `/jobs` poll |
 
 ---
-#   m u l t i m o d a l - s u p p o r t - c h a t b o t  
+#   m u l t i m o d a l - s u p p o r t - c h a t b o t 
+ 
  
